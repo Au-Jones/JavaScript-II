@@ -83,8 +83,19 @@ console.log(ticketPriceTotal);
 // ==== Challenge 5: Be Creative ====
 // Now that you have used .forEach(), .map(), .filter(), and .reduce().  I want you to think of potential problems you could solve given the data set and the 5k fun run theme.  Try to create and then solve 3 unique problems using one or many of the array methods listed above.
 
-// Problem 1
+// Problem 1 if you needed names in lower case
+let allLowercase = [(item,first_name) =>{
+    $;{item.first_name.LowerCase()}; 
+}];
+console.log(allLowerCase); 
 
-// Problem 2
+// Problem 2 if you needed shirts in medium
+let MediumShirts = [shirt_size.filter(item =>{
+    return item.shirt_size === "M";
+})];
+console.log(MediumShirts);
 
-// Problem 3
+// Problem 3 if you just wanted last names
+let LastName = [last_name.foreach(currentValue => {
+
+    console.log(LastName);})];
